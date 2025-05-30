@@ -5,13 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="index.css">
   <title>Work</title>
 </head>
 
 <body>
   <!-- Hero Section -->
-  <header class="bg-[url(../images/bg9.jpg)]  bg-cover bg-center w-270 px-16 py-4">
-    <div class="bg-blue-600 bg-cover w-250 p-10">
+  <header class="bg-[url(../images/bg9.jpg)]  bg-cover bg-center w-full px-16 py-4">
+    <div class="bg-blue-600 bg-cover w-full p-10">
       <h1 class=" italic md:text-3xl text-center text-white mb-4">PROJECT GALLERY</h1>
       <h2 class="text-white text-center text-lg md:text-xl">This is a showcase of some of my work which span the Architectural, Consultancy and Restaurateur industry <br/>
         These works include use of Graphic and Web Design, Product Design and Product Management <br/>
@@ -19,8 +20,8 @@
     </div>
 
     <!-- Content Grid -->
-    <div class="grid md:grid-flow-col auto-rows-max grid-rows-3 gap-10">
-      <div class="bg-white p-6 h-165 w-250 rounded shadow">
+    <div class="flex flex-col md:flex-row flex-wrap gap-10">
+      <div class="bg-white p-6 h-165 w-[80%] md:w-250 rounded shadow">
         <img src="./images/scrnsht1.jpg" alt="">
         <p class="font-bold text-3xl text-lg mb-2 p-10">Architectectural industry</p>
         <a href="https://responsive-five-khaki.vercel.app/" class="text-blue-600 hover:text-blue-800 text-2xl">
@@ -29,7 +30,7 @@
 
       </div>
 
-      <div class="bg-white p-6 h-165 w-250 rounded shadow">
+      <div class="bg-white p-6 h-165 w-[80%] md:w-250 rounded shadow">
         <img src="./images/scrnsht2.jpg">
         <p class="font-bold text-3xl text-lg mb-2 p-10">Consultancy industry</p>
         <a href="https://team-apha.vercel.app/" class="text-blue-600 hover:text-blue-800 text-2xl">
@@ -37,7 +38,7 @@
         </a>
       </div>
 
-      <div class="bg-white p-6 h-165 w-250 rounded shadow">
+      <div class="bg-white p-6 h-165 w-[80%] md:w-250 rounded shadow">
         <img src="./images/scrnsht3.jpg">
         <p class="font-bold text-3xl text-lg mb-2 p-10">Restaurateur industry</p>
         <a href="https://food-fun-gamma.vercel.app/" class="text-blue-600 hover:text-blue-800 text-2xl">
@@ -49,9 +50,9 @@
     </div>
   </header>
 
-  <section class="mt-4 md:mt-0">
+  <section class="flex justify-center mt-4 md:mt-0">
     <a href="./files/Aboe Vonette Resume..pdf" download
-      class="inline-block m-4 bg-blue-600 text-white text-2xl px-10 py-3 rounded hover:bg-blue-700 transition">
+      class="m-4 bg-blue-600 text-white text-2xl px-10 py-3 rounded hover:bg-blue-700 transition">
       My CV
       </a>
     </a>
