@@ -8,10 +8,11 @@
   <link rel="stylesheet" href="index.css">
   <title>Work</title>
   <style>
-    html, body{
+    html,
+    body {
       overscroll-behavior-y: none;
       overscroll-behavior-x: none;
-  }
+    }
   </style>
 </head>
 
@@ -20,14 +21,17 @@
   <header class="bg-[url(../images/bg9.jpg)]  bg-cover bg-center w-full px-16 py-4">
     <div class="bg-blue-600 bg-cover w-full p-10">
       <h1 class=" italic md:text-3xl text-center text-white mb-4">PROJECT GALLERY</h1>
-      <h2 class="text-white text-center text-lg md:text-xl">This is a showcase of some of my work which span the Architectural, Consultancy and Restaurateur industry <br/>
-        These works include use of Graphic and Web Design, Product Design and Product Management <br/>
+      <h2 class="text-white text-center text-lg md:text-xl">Welcome to my project gallery! Here you'll find a curated
+        selection of my work across various industries, showcasing my skills in design, development, and
+        management.<br />
+        Each project highlights my passion for creativity and innovation, as well as my commitment to delivering quality
+        solutions for clients and collaborators.<br />
         The world of digital design and development is constantly evolving and so am I. </h2>
     </div>
 
     <!-- Content Grid -->
     <div class="flex flex-col md:flex-row flex-wrap gap-10">
-      <div class="bg-white p-6 md:h-165 w-[80%] md:w-250 rounded shadow">
+      <div class="bg-white p-3 md:h-90 w-[90%] md:w-90 rounded shadow">
         <img src="./images/scrnsht1.jpg" alt="">
         <p class="font-bold text-3xl text-lg mb-2 p-10">Architectectural industry</p>
         <a href="https://responsive-five-khaki.vercel.app/" class="text-blue-600 hover:text-blue-800 text-2xl">
@@ -36,7 +40,7 @@
 
       </div>
 
-      <div class="bg-white p-6 md:h-165 w-[80%] md:w-250 rounded shadow">
+      <div class="bg-white p-3 md:h-90 w-[90%] md:w-90 rounded shadow">
         <img src="./images/scrnsht2.jpg">
         <p class="font-bold text-3xl text-lg mb-2 p-10">Consultancy industry</p>
         <a href="https://team-apha.vercel.app/" class="text-blue-600 hover:text-blue-800 text-2xl">
@@ -44,27 +48,35 @@
         </a>
       </div>
 
-      <div class="bg-white p-6 md:h-165 w-[80%] md:w-250 rounded shadow">
+      <div class="bg-white p-3 md:h-90 w-[90%] md:w-90 rounded shadow">
         <img src="./images/scrnsht3.jpg">
         <p class="font-bold text-3xl text-lg mb-2 p-10">Restaurateur industry</p>
-        <a href="https://food-fun-gamma.vercel.app/" class="text-blue-600 hover:text-blue-800 text-2xl">
-          VIEW
-        </a>
-
-
-      </div>
+              </div>
     </div>
+      <section class="mt-10 px-4">
+      <h1 class="text-xl font-bold mb-4 text-blue-700">Other Projects</h1>
+      <ul class="list-disc list-inside text-gray-800 space-y-2">
+        <li>BuyVersity App – <a href="https://buyversityc.netlify.app/" class=" font-semibold hover:underline">View</a></li>
+        <li>Library App – <a href=" https://buyversityc.netlify.app/" class="font-semibold hover:underline">View</a></li>
+        <li>College Campus App – <a href="https://buyversityc.netlify.app/" class="font-semibold hover:underline">View</a></li>
+        <!-- Add more as needed -->
+
   </header>
 
-  <section class="flex justify-center mt-4 md:mt-0">
+  <section class="flex justify-center items-center gap-6 px-10 py-5">
     <a href="./files/Aboe Vonette Resume..pdf" download
       class="m-4 bg-blue-600 text-white text-2xl px-10 py-3 rounded hover:bg-blue-700 transition">
       My CV
-      </a>
     </a>
+
+     <button onclick="window.location.href='index.html'"
+          class="inline-flex items-center px-10 py-3 bg-blue-600 text-white text-2xl  rounded hover:bg-black transition duration-200">
+          Go Back
+  </button>
+   
   </section>
 
-
+   
 </body>
 
 </html>
